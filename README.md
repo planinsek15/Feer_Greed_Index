@@ -38,7 +38,7 @@ cd fear-greed-tracker
 ```
 ### 2. Install Dependencies
 Make sure you have Python and Chrome installed.
-Install required Python libraries:
+\n Install required Python libraries:
 ```
 pip install selenium
 ```
