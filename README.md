@@ -44,3 +44,22 @@ Install required Python libraries:
 pip install selenium
 ```
 Note: You need to have Chrome WebDriver installed and added to your system's PATH.
+
+### 3. Setup Email Credentials
+In the scrap_index_vlaue.py file, locate the **send_email()** function and replace the following placeholders:
+
+```
+sender_email = "your-email@gmail.com"  # Your Gmail address
+receiver_email = "receiver@gmail.com"  # Who will receive alerts
+password = "your-app-password"         # Use a Gmail app password (not your login password)
+```
+Note: You must enable 2FA on your Google account and generate an App Password for this to work.
+
+### 4. Run the Script
+```
+python scrap_index_vlaue.py
+```
+
+- This will launch Chrome, scrape the data, save it to a .csv file, and send an alert if needed.
+- Output data is saved to fear_greed_index.csv.
+
