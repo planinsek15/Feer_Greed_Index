@@ -35,3 +35,8 @@ This project was created as part of a home education initiative with the goal of
 ```bash
 git clone https://github.com/your-username/fear-greed-tracker.git
 cd fear-greed-tracker
+
+### 2. Install Dependencies
+Make sure you have Python and Chrome installed.
+Install required Python libraries:
+```pip install selenium
