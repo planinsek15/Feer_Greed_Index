@@ -36,6 +36,8 @@ This project was created as part of a home education initiative with the goal of
 git clone https://github.com/your-username/fear-greed-tracker.git
 cd fear-greed-tracker
 ```
+
+Or download the ZIP file and extract them in the location by your choice.
 ### 2. Install Dependencies
 Make sure you have Python and Chrome installed.
 
