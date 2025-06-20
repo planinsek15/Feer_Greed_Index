@@ -1,0 +1,5 @@
+sender_email=
+sender_password=
+recipient_email=
+smtp_server=smtp.example.com
+smtp_port=587
